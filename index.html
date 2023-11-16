@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script defer src="script.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>PuppyBowl</title>
+</head>
+
+<body body class="backimage">
+
+    <h1>Puppy Bowl Game</h1>
+
+    <!-- Form to add new players -->
+    <div id="new-player-form">
+        <form id="new-player">
+            <label for="title">Player Name
+                <input id="title" type="text" name="title" />
+            </label>
+            <label for="breed">Breed
+                <input id="breed" type="text" name="breed" />
+            </label>
+            <label for="status">Status
+                <select id="status" name="status">
+                    <option value="bench">Bench</option>
+                    <option value="field">Field</option>
+                </select>
+            </label>
+            <label for="imageUrl">
+                Image URL
+                <input id="imageUrl" type="text" name="imageUrl" placeholder="Image URL" />
+            </label>
+            <label for="teamId">TeamID
+                <input id="teamId" type="number" name="teamId" />
+            </label>
+            <button id="addNew" type="submit" name="add-button">Add New Player</button>
+        </form>
+    </div>
+
+    <div id="all-players-container"></div>
+
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-size: medium;
+    font-style: normal;
+    color: greenyellow;
+  }
+  
+  h1{
+    font-size: 50px;
+    font-style: normal;
+    color: orange;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid blue;
+  }
+  
+  .backimage {
+    height:80vh;
+    width: auto;
+    background: url('https://wallpapercave.com/wp/wp1936426.jpg');
+    background-size:cover;
+    position:relative;
+  }
+  
+  li{
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+  }
+  
+  #new-player{
+    color:red;
+    font-size: medium;
+    font-style: normal;
+    padding: 5px;
+    margin: 5px;
+    display: list-item;
+    list-style-type: none;
+  }
+  
+  img{
+    height: 100px;
+    width: auto;
+  }
+  
+  #all-teams-container, #all-players-container{
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    margin-bottom: 15px;
+  }
+  
+  .player, .team{
+    max-height: 300px;
+    margin: 15px;
+    padding: 15px;
+  }
+  
+  button {
+    margin-right: 10px;
+  }
+  
+  .hidden{
+    display: none;
+  }
